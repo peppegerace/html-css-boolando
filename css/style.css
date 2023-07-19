@@ -21,8 +21,14 @@ a {
   color: white;
 }
 
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
 li {
   list-style: none;
+  margin-right: 5px;
 }
 
 
@@ -40,17 +46,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.menu ul,
-.shop ul{
-  display: flex;
-  flex-direction: row;
-}
-
-.menu ul li,
-.shop ul li {
-  margin-right: 5px;
 }
 
 .logo {
@@ -153,3 +148,18 @@ main {
   color: red;
 }
 
+/* FOOTER */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .info a {
+  font-size: 0.7rem;
+}
