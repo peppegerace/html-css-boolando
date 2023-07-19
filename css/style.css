@@ -1,5 +1,63 @@
+/* general */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* HEADER */
+header {
+  background-color: #ff6900;
+  padding: 10px;
+  box-shadow: 0 5px 5px #a69d97 ;
+  position: fixed;
+  width: 100%;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu ul,
+.shop ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul li,
+.shop ul li {
+  margin-right: 5px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
